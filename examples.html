@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block vs Inline Elements</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="examples.html">Examples</a> 
+            </nav>
+           <h1>Examples Demonstration</h1>
+
+        <section class="block-elements">
+            <h2>Block Elements in Action</h2>
+            <div class="block-example">
+              
+    <div style="border:1px solid black">This is a block div with full width</div>
+                <p style="border:1px solid black">This is a paragraph that starts on a new line.</p>
+            </div>
+        </section>
+
+        <section class="inline-elements">
+            <h2>Inline Elements in Action</h2>
+            <div class="inline-example">
+                <p>Here is some text with an <span style="border:1px solid orange">inline span</span> and <a href="#" style="border: 1px solid gray">an inline link</a> flowing together<p>
+                <p>Inline elements <span style="border:1px solid purple"><strong>do not break the line</strong></span> and only take as much space as needed.</p>
+            </div>
+        </section>
+
+        <section class="side-by-side">
+            <h2>Side-by-Side Comparison</h2>
+            <div class="side-by-side-example">
+                <div class="block-box">
+                    <p>Block 1</p>
+                    <p>Block 2</p>
+                </div>
+                <div class="inline-box">
+                    <p>Inline Example: <span style="border: 1px solid orange;">Item 1</span> <span style="border: 1px solid orange;">Item 2</span> <span style="border: 1px solid orange;">Item 3</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="practice-form">
+            <h2>Practice Form</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+<br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+<br>
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback"></textarea>
+<br>
+                <label for="role">Role:</label>
+                <select id="role" name="role">
+                    <option>Student</option>
+                    <option>Teacher</option>
+                    <option>Other</option>
+                </select>
+<br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Block vs Inline Elements Tutorial</p>
+        </footer>
+    </div>
+</body>
+</html>
